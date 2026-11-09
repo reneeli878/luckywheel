@@ -1,0 +1,11 @@
+:root { font-family: Inter, 'Noto Sans TC', system-ui, sans-serif; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+
+.wheel-stage {
+  position: relative;
+  width: min(75vw, 500px);
+  aspect-ratio: 1;
+  margin: 80px auto;
+  overflow: visible;
+}
